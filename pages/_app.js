@@ -17,6 +17,7 @@ export default function App({ Component, pageProps }) {
     </SessionProvider>
   );
 }
+
 export const getServerSideProps = async ({ req, query }) => {
   const session = await getSession({ req });
   console.log("Holaaa");
