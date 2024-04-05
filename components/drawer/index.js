@@ -112,7 +112,7 @@ export default function TemporaryDrawer({ props, children }) {
   const menuOptions = [
     { text: 'Inicio', icon: <Home />, path: '/', roles: ['guest'] },
     { text: 'Servicios Prototipo1', icon: <NaturePeopleRounded />, path: '/services', roles: ['guest'] },
-    //{ text: 'Servicios Prototipo2', icon: <NaturePeopleRounded />, path: '/services2', roles: ['guest'] },
+    { text: 'Servicios Prototipo2', icon: <NaturePeopleRounded />, path: '/services2', roles: ['guest'] },
     //{ text: 'Usuarios', icon: <VerifiedUser />, path: '/users', roles: ['guest'] },
     { text: 'Acerca de nosotros', icon: <SearchOutlined />, path: '/about_us', roles: [ 'guest'] },
     { text: 'Contactanos', icon: <ContactPage />, path: '/contact_us', roles: ['guest'] },

@@ -15,35 +15,35 @@ const servicios = [
   {
     title: 'Servicios Fiscales',
     items: [
-      'Diagnóstico Fiscal inicial',
-      'Trámites de Devolución de Impuestos Federales',
-      'Impuestos Locales',
-      'Contabilidad Electrónica',
-      'Preparación de Estados Financieros Mensuales (NIF)'
+      '> Diagnóstico Fiscal inicial',
+      '> Trámites de Devolución de Impuestos Federales',
+      '> Impuestos Locales',
+      '> Contabilidad Electrónica',
+      '> Preparación de Estados Financieros Mensuales (NIF)'
     ]
   },
   {
     title: 'Servicios Laborales',
     items: [
-      'Asesoría laboral y de seguridad social',
-      'Asesoría para la contratación de sus empleados',
-      'Elaboración de nóminas'
+      '> Asesoría laboral y de seguridad social',
+      '> Asesoría para la contratación de sus empleados',
+      '> Elaboración de nóminas'
     ]
   },
   {
     title: 'Otros Servicios',
     items: [
-      'Asesoría especializada por sectores',
-      'Manejo de Servicio Integral de Registro de Obras de Construcción',
-      'Acta constituida y autorizada por Notario Público',
-      'Inscripción del Registro Federal del Contribuyente (RFC)',
-      'Trámites ante el Registro Público de la Propiedad y Registro Público de Comercio',
-      'Apertura de la Cuenta Bancaria en el Banco de su elección',
-      'Constitución de Sociedades Civiles y Mercantiles, Asociaciones',
-      'Libros corporativos para todo tipo de sociedades',
-      'Escisiones, Fusiones y Liquidaciones',
-      'Elaboración de todo tipo de contratos',
-      'Registro de Marcas y Patentes'
+      '> Asesoría especializada por sectores',
+      '> Manejo de Servicio Integral de Registro de Obras de Construcción',
+      '> Acta constituida y autorizada por Notario Público',
+      '> Inscripción del Registro Federal del Contribuyente (RFC)',
+      '> Trámites ante el Registro Público de la Propiedad y Registro Público de Comercio',
+      '> Apertura de la Cuenta Bancaria en el Banco de su elección',
+      '> Constitución de Sociedades Civiles y Mercantiles, Asociaciones',
+      '> Libros corporativos para todo tipo de sociedades',
+      '> Escisiones, Fusiones y Liquidaciones',
+      '> Elaboración de todo tipo de contratos',
+      '> Registro de Marcas y Patentes'
     ]
   }
 ];
@@ -79,7 +79,7 @@ export default function NestedList() {
           component="div"
           id="nested-list-subheader"
         >
-          Servicios de la Empresa
+          Los servicios que tenemos y brindamos de nuestra empresa, se muestran a continuacion:
         </ListSubheader>
       }
     >
