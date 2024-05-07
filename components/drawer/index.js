@@ -186,7 +186,7 @@ export default function TemporaryDrawer({ props, children }) {
         <Container>
 
 
-          <Box sx={{ my: 2 }}>
+          <Box sx={{ my: 0 }}>
             {children}
           </Box>
         </Container>
